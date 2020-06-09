@@ -1,2 +1,2 @@
 # scu-backend
-Sistema Cadastro Usuário -api
+Sistema Cadastro Usuário - api
