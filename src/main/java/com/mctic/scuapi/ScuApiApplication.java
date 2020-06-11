@@ -14,7 +14,7 @@ public class ScuApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ScuApiApplication.class, args);
 	}
-	
+
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Bean
 	public ServletRegistrationBean h2servletRegistration() {
@@ -22,5 +22,4 @@ public class ScuApiApplication {
 		registrationBean.addUrlMappings("/h2-console/*");
 		return registrationBean;
 	}
-
 }
