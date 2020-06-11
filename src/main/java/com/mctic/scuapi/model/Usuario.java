@@ -27,7 +27,7 @@ public class Usuario {
 	private String senha;
 
 	@NotNull
-	@Size(max = 30)
+	@Size(max = 50)
 	public String getNome() {
 		return nome;
 	}
