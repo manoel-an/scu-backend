@@ -17,7 +17,7 @@ public class Usuario {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long codigo;
 
-	@Column(nullable = false, length = 30)
+	@Column(nullable = false, length = 50)
 	private String nome;
 
 	@Column(nullable = false, length = 20, unique = true)
